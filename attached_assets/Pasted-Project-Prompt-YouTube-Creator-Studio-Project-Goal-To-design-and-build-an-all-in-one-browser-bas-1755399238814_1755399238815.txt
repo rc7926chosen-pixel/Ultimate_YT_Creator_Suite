@@ -1,0 +1,40 @@
+Project Prompt: YouTube Creator Studio
+
+Project Goal: To design and build an all-in-one, browser-based video editor that leverages AI and automation to streamline the workflow for YouTube content creators, from single clip edits to bulk content production.
+
+Key Features and Functionality
+
+1. Core Editing Suite
+
+    Clip Trimming & Merging: A user-friendly timeline with intuitive click-and-drag functionality to easily trim, cut, and merge video and audio clips.
+
+    Audio Controls: A dedicated track for audio with volume sliders, fade-in/out options, and the ability to add multiple audio layers.
+
+2. YouTube-Specific Tools
+
+    Image to Video Converter: A tool that combines an image (JPG, PNG) and an audio file (MP3, WAV) into a standard MP4 video, ideal for podcasts or music uploads with a static visual.
+
+    Royalty-Free Asset Library: Integrate a curated library of YouTube-safe, royalty-free stock footage, images, and music directly within the editor to simplify content creation.
+
+    Brand Kit: A feature to save and apply a channel's specific brand assets, including logos, a color palette, and custom fonts, for consistent branding across all videos.
+
+3. AI-Powered Automation
+
+    Automatic Subtitles & Text-Based Editing: An AI tool that automatically transcribes video audio into time-stamped subtitles. The user can then edit the video by directly editing the text transcript, with corresponding cuts made to the video clip.
+
+    Silence Removal: An AI-driven function that detects and removes awkward pauses or periods of silence in the video, resulting in a more concise and professional final product.
+
+    Smart Music Ducking: Automatically lowers the volume of background music when dialogue is present and raises it when the speaker stops, ensuring audio clarity.
+
+4. Bulk Editing & Content Repurposing
+
+    Bulk Template Creation: Enable users to create reusable templates (with predefined intros, outros, logo placements, and text styles) that can be applied to a large batch of videos simultaneously, ideal for channels producing many short-form clips.
+
+    Cross-Platform Resizing: An intelligent reframing tool that automatically converts a standard 16:9 video to a 9:16 vertical format for YouTube Shorts or other social media platforms, with AI that keeps the main subject centered.
+
+5. Post-Production & Publishing
+
+    Enhanced Direct YouTube Integration: Connect to the user's YouTube account to not only upload the finished video but also automatically apply channel-specific settings, such as a video category. The app should also have the ability to suggest or auto-generate titles and descriptions based on the video's content.
+
+    In-App Analytics Dashboard: A simple, integrated dashboard that provides a quick overview of the video's performance metrics (views, watch time, etc.) after it's been uploaded, encouraging continuous use of the platform.
+

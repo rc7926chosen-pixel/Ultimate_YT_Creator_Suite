@@ -1,0 +1,79 @@
+🧠 Core Philosophy: The "One-Tab" Workspace
+
+The goal is to eliminate tab-switching. I shouldn't need to have my editor, my asset library, my script, my analytics, and my social media scheduler all open in different windows. Your app should be my command center. Every feature should be built around saving clicks and automating repetitive tasks.
+
+🎬 The Editor: From Basic to Bionic
+
+Your current plan is good, but it's table stakes. We need to build the smartest, fastest editor on the planet.
+
+AI Superpowers (The Real Game-Changers)
+
+    Text-Based Video Editing: This is non-negotiable. Integrate a transcription service (like your planned AI subtitles) directly into the editing process. I should be able to edit my video by just editing the text transcript. Deleting a sentence in the text automatically creates a jump cut in the video. This is the single biggest speed boost possible.
+
+    AI "Jump Cut" Magician: A one-click button that automatically finds and removes all silences and filler words (ums, ahs, you knows). Let me adjust the sensitivity.
+
+    AI B-Roll Suggester: The app should "read" my script/transcript and automatically suggest relevant b-roll from the integrated stock library or even from my own previously uploaded footage. If I say "smartphone," it should pop up with clips of smartphones.
+
+    AI Audio Engineer: Go beyond volume. A one-click "Make it Sound Pro" button that runs noise reduction, equalization (EQ), and compression to make my voice-over sound like it was recorded in a studio. Think Adobe Podcast's "Enhance Speech" but built-in.
+
+    AI Clip Finder: I should be able to type "that time I unboxed the drone" and the AI searches all my past projects and raw footage transcripts to find that exact moment.
+
+Workflow & Asset Management
+
+    Proxy Editing: Browser-based editing of 4K footage will kill performance. The app needs to automatically create low-resolution "proxy" files for smooth editing in the browser. The final export then uses the original high-quality files. This is a pro-level feature that builds massive trust.
+
+    The Ultimate Brand Kit: Don't just stop at a logo overlay. My brand kit should include:
+
+        Motion Graphics Templates: Pre-made and customizable intros, outros, and lower-thirds. I should be able to just drag "Intro" onto the timeline, and my branded animation is there.
+
+        Color & Font Libraries: A palette of my brand colors and my specific fonts, accessible with one click for any text or graphic element.
+
+        Soundscapes: My specific background music track and my "swoosh" sound effects should be saved in a quick-access folder.
+
+    Universal Asset Library: Don't just build one. Integrate APIs from Epidemic Sound, Artlist, Storyblocks, etc. I want one search bar that searches all my subscriptions at once and lets me drop assets directly onto my timeline.
+
+🚀 Publishing & Optimization Hub
+
+Exporting the video is only half the battle. The fight for views happens before I click publish.
+
+Thumbnail Supremacy
+
+    Integrated Thumbnail Editor: A powerful, Canva-like editor built right in. It should automatically pull high-resolution stills from my video as starting points.
+
+    AI Thumbnail A/B Tester: This is a killer feature. Let me create 2-3 thumbnail variations. Upon publishing, the app uses the YouTube API to rotate these thumbnails for the first 3-6 hours. It then analyzes the Click-Through Rate (CTR) and automatically sets the winner as the permanent thumbnail. 🤯
+
+Title & Metadata AI
+
+    Title Grader & Generator: As I type a title, an AI should give it a score based on SEO potential, emotional impact, and clarity. It should also generate 5-10 high-potential alternative titles based on my video's transcript.
+
+    Smart Description & Tags: Auto-generate a draft description with timestamps/chapters pulled from my transcript. It should also analyze top-ranking videos on the same topic and suggest relevant keywords and tags to include.
+
+📈 Post-Publishing & Repurposing Engine
+
+My long-form video isn't the end product; it's the raw material for a dozen other pieces of content. Your app should be the factory.
+
+    One-Click Social Content: A dedicated "Repurpose" tab.
+
+        AI Shorts/Reels/TikToks Creator: An AI scans my final video for the most engaging, "viral" 60-second moments (e.g., moments with high energy, emotional peaks, key punchlines). It then automatically reformats them to 9:16, adds animated captions (essential!), and lets me publish them directly to YouTube Shorts, Instagram Reels, and TikTok.
+
+        Carousel & Quote Generator: Pull out key points or powerful quotes from the video and format them into slick-looking carousel posts for Instagram and LinkedIn.
+
+        Blog Post Converter: Convert the final, edited transcript into a well-formatted blog post, ready for my website.
+
+    Community & Analytics Hub:
+
+        Unified Comment Dashboard: Pull in comments from YouTube, Instagram, and TikTok for the content generated from this video. Let me filter by "unanswered questions," "negative sentiment," etc., and use AI to draft replies to common queries.
+
+        Performance Funnel View: Instead of just showing YouTube views, show me the entire funnel. How many views did the original video get? How many of those viewers clicked to watch a Short? How many people from the Instagram carousel visited my website?
+
+✨ Look, Feel & UI/UX
+
+The app needs to feel professional, fast, and inspiring to use.
+
+    Customizable Workspace: Let me save different workspace layouts. I want a "Color Grading" view with big scopes, an "Audio Mixing" view with a visible mixer, and a "Storytelling" view with a massive transcript panel.
+
+    Keyboard Shortcut Mastery: This is critical for power users. Not only should everything have a shortcut, but you should also have presets that mimic Final Cut Pro and Adobe Premiere Pro, making the switch for experienced editors seamless.
+
+    "Focus Mode": A beautiful, minimalist UI that hides all the panels and just shows my video preview and timeline, so I can get in the zone.
+
+    Modular Design: The interface should be a series of "widgets" or "modules." If I don't care about the blog post converter, I should be able to hide that module forever. Let me build my own perfect dashboard.

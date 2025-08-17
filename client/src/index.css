@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(210, 40%, 98%);
+  --foreground: hsl(222.2, 84%, 4.9%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(222.2, 84%, 4.9%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(222.2, 84%, 4.9%);
+  --primary: hsl(235.8, 85.7%, 60%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222.2, 84%, 4.9%);
+  --muted: hsl(210, 40%, 96%);
+  --muted-foreground: hsl(215.4, 16.3%, 46.9%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222.2, 84%, 4.9%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --border: hsl(214.3, 31.8%, 91.4%);
+  --input: hsl(214.3, 31.8%, 91.4%);
+  --ring: hsl(235.8, 85.7%, 60%);
+  --chart-1: hsl(235.8, 85.7%, 60%);
+  --chart-2: hsl(159.8, 100%, 36.1%);
+  --chart-3: hsl(42, 92.8%, 56.3%);
+  --chart-4: hsl(147.1, 78.5%, 42%);
+  --chart-5: hsl(341.5, 75.2%, 51%);
+  --radius: 0.5rem;
+  
+  /* Custom colors for Creator Studio */
+  --glass-bg: hsl(210, 40%, 98%, 0.8);
+  --glass-border: hsl(214.3, 31.8%, 91.4%, 0.3);
+  --wellness-primary: hsl(271, 91%, 65%);
+  --wellness-secondary: hsl(271, 91%, 55%);
+  --oracle-primary: hsl(280, 100%, 70%);
+  --oracle-secondary: hsl(320, 100%, 70%);
+  --brand-primary: hsl(43, 100%, 60%);
+  --brand-secondary: hsl(38, 100%, 50%);
+  --ip-primary: hsl(0, 84%, 60%);
+  --ip-secondary: hsl(340, 100%, 70%);
+  --success-primary: hsl(142, 76%, 36%);
+  --success-secondary: hsl(158, 64%, 52%);
+}
+
+.dark {
+  --background: hsl(210, 15%, 11%);
+  --foreground: hsl(210, 40%, 98%);
+  --card: hsl(222.2, 84%, 5%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --popover: hsl(222.2, 84%, 5%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --primary: hsl(235.8, 85.7%, 60%);
+  --primary-foreground: hsl(222.2, 84%, 4.9%);
+  --secondary: hsl(217.2, 32.6%, 17.5%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217.2, 32.6%, 17.5%);
+  --muted-foreground: hsl(215, 20.2%, 65.1%);
+  --accent: hsl(217.2, 32.6%, 17.5%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217.2, 32.6%, 17.5%);
+  --input: hsl(217.2, 32.6%, 17.5%);
+  --ring: hsl(235.8, 85.7%, 60%);
+  --chart-1: hsl(235.8, 85.7%, 60%);
+  --chart-2: hsl(159.8, 100%, 36.1%);
+  --chart-3: hsl(42, 92.8%, 56.3%);
+  --chart-4: hsl(147.1, 78.5%, 42%);
+  --chart-5: hsl(341.5, 75.2%, 51%);
+  
+  /* Dark mode custom colors */
+  --glass-bg: hsl(222.2, 84%, 5%, 0.8);
+  --glass-border: hsl(217.2, 32.6%, 17.5%, 0.3);
+  --wellness-primary: hsl(271, 91%, 65%);
+  --wellness-secondary: hsl(271, 91%, 55%);
+  --oracle-primary: hsl(280, 100%, 70%);
+  --oracle-secondary: hsl(320, 100%, 70%);
+  --brand-primary: hsl(43, 100%, 60%);
+  --brand-secondary: hsl(38, 100%, 50%);
+  --ip-primary: hsl(0, 84%, 60%);
+  --ip-secondary: hsl(340, 100%, 70%);
+  --success-primary: hsl(142, 76%, 36%);
+  --success-secondary: hsl(158, 64%, 52%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .glassmorphism {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+  }
+  
+  .pulse-wellness {
+    animation: pulse-wellness 2s infinite;
+  }
+  
+  @keyframes pulse-wellness {
+    0%, 100% { 
+      box-shadow: 0 0 0 0 hsl(var(--wellness-primary) / 0.7); 
+    }
+    70% { 
+      box-shadow: 0 0 0 10px hsl(var(--wellness-primary) / 0); 
+    }
+  }
+  
+  .inspire-glow {
+    box-shadow: 0 0 20px hsl(var(--wellness-primary) / 0.5);
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from { 
+      box-shadow: 0 0 20px hsl(var(--wellness-primary) / 0.5); 
+    }
+    to { 
+      box-shadow: 0 0 30px hsl(var(--wellness-primary) / 0.8); 
+    }
+  }
+  
+  .gradient-wellness {
+    background: linear-gradient(135deg, var(--wellness-primary), var(--wellness-secondary));
+  }
+  
+  .gradient-oracle {
+    background: linear-gradient(135deg, var(--oracle-primary), var(--oracle-secondary));
+  }
+  
+  .gradient-brand {
+    background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+  }
+  
+  .gradient-success {
+    background: linear-gradient(135deg, var(--success-primary), var(--success-secondary));
+  }
+}
